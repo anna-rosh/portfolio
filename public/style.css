@@ -8,7 +8,7 @@ body {
     width: 100%;
     padding: 2% 2%;
     margin: 0 auto;
-    background-color: lightgray;
+    background-color: white;
     scroll-behavior: smooth;
     font-family: 'Abel', sans-serif;
     color: black;
@@ -22,7 +22,7 @@ body {
     left: 0;
     z-index: -2;
     background-image: url("./imgs/scratched.jpg");
-    opacity: 0.3;
+    opacity: 0.1;
 }
 
 /* OPENING ************ OPENING ************* OPENING ************ OPENING */
@@ -286,7 +286,7 @@ footer .contact-container {
     position: relative;
     width: 70%;
     height: 70vh;
-    background-color: lightgray;
+    background-color: white;
     z-index: 5;
     display: flex;
     justify-content: center;
@@ -304,7 +304,7 @@ footer .contact-container {
     top: 0;
     left: 0;
     background-image: url("./imgs/scratched.jpg");
-    opacity: 0.3;
+    opacity: 0.1;
     z-index: -1;
 }
 
