@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 2% 2%;
+    margin: 0 auto;
+    background-color: lightgray;
+    scroll-behavior: smooth;
+    font-family: 'Abel', sans-serif;
+    color: black;
+}
+
+.fixed-bg {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background-image: url("./imgs/scratched.jpg");
+    opacity: 0.3;
+}
+
+/* OPENING ************ OPENING ************* OPENING ************ OPENING */
+
+.opening-section {
+    width: 100%;
+    height: 90vh;
+    padding: 0 2%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* box-shadow:  0 0 10px  rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.3); */
+    border: 2px solid black;
+}
+
+.code {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    stroke-width: 0.6px;
+    color: rgb(143, 212, 235);
+    left: -5%;
+    top: 7%;
+}
+
+.title-container,
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.title-container {
+    align-items: flex-start;
+    animation: 1.5s ease-in-out 0s 1 appear;
+}
+
+.title-container h1 {
+    text-transform: uppercase;
+    font-size: 5.8vw;
+}
+
+.title-container h2 {  
+    font-weight: 300;
+    font-size: 2.99vw;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.about-container {
+    animation: 1.5s ease-out 0s 1 slideInFromRight, 1.5s ease-in-out 0s 1 appear;
+}
+
+.about-container h2 {
+    padding: 0 50px 3%;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+}
+
+.about-text {
+    padding: 4% 8%;
+    font-size: 19px;
+}
+
+/*  C O N T A C T ************** C O N T A C T  */
+
+.contact-container {
+    padding-top: 1%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-link {
+    /* color: antiquewhite; */
+    color: black;
+    transition: color 0.3s;
+}
+
+.contact-link:focus,
+.contact-link:hover {
+    outline: none;
+    color: rgb(143, 212, 235);
+}
+
+.contact-container .contact-icon {
+    stroke-width: 1px;
+}
+
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(20%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* PROJECTS TITLE ************** PROJECT TITLE ****************** PROJECT TITLE */
+.project-title-container {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title-container h1 {
+    margin-right: 10px;
+    font-size: 3vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+/* PROJECT ****************************** PROJECT ********************* PROJECT *********************** PROJECT */
+.project-container {
+    height: 48vh;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 40% 50% 10%;
+    align-items: center;
+    /* background-color: rgba(182, 182, 182, 0.5); */
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow:  0 0 10px  rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.3); */
+    border: 2px solid black;
+}
+
+.img-container {
+    position: relative;
+    width: 90%;
+    justify-self: center;
+}
+
+.project-img {
+    width: 100%;
+}
+
+/* interactive overlay ------------- interactive overlay ------------------- */
+.overlay {
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 1, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.film-icon {
+    stroke-width: 1px;
+    color: rgb(143, 212, 235);
+    width: 40px;
+    height: 40px;
+}
+
+.overlay h3 {
+    color: rgb(143, 212, 235);
+    letter-spacing: 1px;
+}
+
+/* interactive overlay end ------------- interactive overlay end ------------------- */
+
+.project-text-container {
+    justify-self: center;
+}
+
+.project-text-container h2 {
+    text-align: center;
+    padding: 2% 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.project-info {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 19px;
+}
+
+.project-links {
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.project-link-icon {
+    stroke-width: 1px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.project-link-icon:hover {
+    color: rgb(143, 212, 235);
+}
+
+/* FOOTER *********************** FOOTER ************************* FOOTER ****************** FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+footer .contact-container {
+    width: 40%;
+    padding: 0;
+}
+
+/* VIDEO ************************ VIDEO ********************* VIDEO */
+.video-comp-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.video-overlay {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 1, 0.5);
+}
+
+.video-container {
+    position: relative;
+    width: 70%;
+    height: 70vh;
+    background-color: lightgray;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     box-shadow:  0 0 10px  rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+}
+
+.video-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("./imgs/scratched.jpg");
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.video-container h1 {
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.video {
+    width: 70%;
+}
+
+.video:focus {
+    outline: none;
+}
