@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    padding: 2% 2%;
+    padding: 2% 3%;
     margin: 0 auto;
     background-color: white;
     scroll-behavior: smooth;
@@ -21,8 +21,8 @@ body {
     top: 0;
     left: 0;
     z-index: -2;
-    background-image: url("./imgs/scratched.jpg");
-    opacity: 0.1;
+    background-image: url("./imgs/geometry.jpg");
+    opacity: 0.3;
 }
 
 /* OPENING ************ OPENING ************* OPENING ************ OPENING */
@@ -34,11 +34,11 @@ body {
     position: relative;
     display: grid;
     grid-template-columns: 50% 50%;
-    /* box-shadow:  0 0 10px  rgba(0,0,0,0.3);
-    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.3); */
-    border: 2px solid black;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+    background-color: rgb(247, 242, 232);
 }
 
 .code {
@@ -46,7 +46,8 @@ body {
     width: 70%;
     height: 70%;
     stroke-width: 0.6px;
-    color: rgb(143, 212, 235);
+    /* color: rgb(212, 238, 233); */
+    color: rgb(198, 189, 205);
     left: -5%;
     top: 7%;
 }
@@ -110,7 +111,7 @@ body {
 .contact-link:focus,
 .contact-link:hover {
     outline: none;
-    color: rgb(143, 212, 235);
+    color: rgb(198, 189, 205);
 }
 
 .contact-container .contact-icon {
@@ -160,13 +161,11 @@ body {
     display: grid;
     grid-template-columns: 40% 50% 10%;
     align-items: center;
-    /* background-color: rgba(182, 182, 182, 0.5); */
-    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-    box-shadow:  0 0 10px  rgba(0,0,0,0.3);
-    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.3); */
-    border: 2px solid black;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+    background-color: rgb(247, 242, 232);
 }
 
 .img-container {
@@ -185,7 +184,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 1, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -194,13 +193,11 @@ body {
 
 .film-icon {
     stroke-width: 1px;
-    color: rgb(143, 212, 235);
     width: 40px;
     height: 40px;
 }
 
 .overlay h3 {
-    color: rgb(143, 212, 235);
     letter-spacing: 1px;
 }
 
@@ -239,7 +236,7 @@ body {
 }
 
 .project-link-icon:hover {
-    color: rgb(143, 212, 235);
+    color: rgb(198, 189, 205);
 }
 
 /* FOOTER *********************** FOOTER ************************* FOOTER ****************** FOOTER */
@@ -279,7 +276,7 @@ footer .contact-container {
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 1, 0.5);
+    background-color: rgba(69, 62, 75, 0.7);
 }
 
 .video-container {
@@ -291,10 +288,10 @@ footer .contact-container {
     display: flex;
     justify-content: center;
     align-items: center;
-     box-shadow:  0 0 10px  rgba(0,0,0,0.3);
-    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+     box-shadow:  0 0 10px  rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.1);
 }
 
 .video-bg {
@@ -303,8 +300,8 @@ footer .contact-container {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("./imgs/scratched.jpg");
-    opacity: 0.1;
+    background-image: url("./imgs/geometry.jpg");
+    opacity: 0.2;
     z-index: -1;
 }
 
