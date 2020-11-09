@@ -38,7 +38,7 @@ export default function Project({ project }) {
                 <img
                     className="project-img"
                     alt={project.title}
-                    src={project.img}
+                    src={process.env.PUBLIC_URL + project.img}
                 />
             </div>
             <div className="project-text-container">

@@ -10,7 +10,7 @@ export default function Video({ project, hideVideo }) {
                 <X className="close" onClick={hideVideo} />
                 <h1>{project.title} | demo</h1>
                 <video controls className="video">
-                    <source src={project.video}></source>
+                    <source src={process.env.PUBLIC_URL + project.video}></source>
                 </video>
             </div>
         </div>

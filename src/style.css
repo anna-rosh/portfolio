@@ -21,7 +21,7 @@ body {
     top: 0;
     left: 0;
     z-index: -2;
-    background-image: url("./imgs/geometry.jpg");
+    background-image: url("./geometry.jpg");
     opacity: 0.3;
 }
 
@@ -300,7 +300,7 @@ footer .contact-container {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("./imgs/geometry.jpg");
+    background-image: url("./geometry.jpg");
     opacity: 0.2;
     z-index: -1;
 }

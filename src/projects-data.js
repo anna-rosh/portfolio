@@ -1,8 +1,8 @@
 const projectsData = [
     {
         id: 1,
-        img: "./imgs/tierbuch-karten.png",
-        video: "./video/tierbuch.mov",
+        img: "/imgs/tierbuch-karten.png",
+        video: "/video/tierbuch.mov",
         title: "Tierbuch",
         description:
             "Interactive single-page app for kids. Kids can learn animals' names and how they sound using three different activities: learning cards, a quiz and a memory game. Sound on :)",
@@ -12,8 +12,8 @@ const projectsData = [
     },
     {
         id: 2,
-        img: "./imgs/social-network-registration.png",
-        video: "./video/social-network.mov",
+        img: "/imgs/social-network-registration.png",
+        video: "/video/social-network.mov",
         title: "Berlin Urban Bike Club",
         description:
             "Social network, where user can create an account, request/accept/reject/end a friendship, chat in a live community chat room, view profile of other users, see who is online etc.",
@@ -23,9 +23,9 @@ const projectsData = [
     },
     {
         id: 3,
-        img: "./imgs/image-board-page.png",
-        video: "./video/image-board.mov",
-        title: "Petsagram",
+        img: "/imgs/image-board-page.png",
+        video: "/video/image-board.mov",
+        title: "Petstagram",
         description:
             "Instagram-inspired single-page application, where user can upload pictures of their pet with a description, comment pictures or delete them. The app is fetching new pictures from the database while user is scrolling down.",
         stack: "Stack: JS, Vue.js, AWS S3, Node.js, Express, PostgreSQL",
@@ -33,8 +33,8 @@ const projectsData = [
     },
     {
         id: 4,
-        img: "./imgs/petition-register.png",
-        video: "./video/petition.mov",
+        img: "/imgs/petition-register.png",
+        video: "/video/petition.mov",
         title: "Free All Dragons",
         description:
             "Online Petition, where user can sign virtual petition, view other signers, edit their account and delete it if needed.",

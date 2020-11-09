@@ -4,6 +4,7 @@ import Project from "./Project";
 import Opening from "./Opening";
 import ProjectsTitle from "./ProjectsTitle";
 import Footer from "./Footer";
+import "./style.css";
 
 export default function App() {
     const [projects] = useState(projectsData);
