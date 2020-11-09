@@ -283,8 +283,8 @@ footer .contact-container {
     position: relative;
     width: 70%;
     height: 70vh;
-    background-color: white;
     z-index: 5;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
