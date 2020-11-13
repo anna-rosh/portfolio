@@ -330,3 +330,56 @@ footer .contact-container {
 .video:focus {
     outline: none;
 }
+
+@media screen and (max-width: 770px) {
+
+    .opening-section {
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 70%;
+    }
+
+    .title-container {
+        align-items: center;
+        align-self: flex-end;
+    }
+
+    .title-container h1 {
+        font-size: 8vw;
+    }
+
+    .about-container {
+        animation: 1.5s ease-in-out 0s 1 appear;
+    }
+
+    /* PROJECT ****************** PROJECT ********************* PROJECT */
+    .project-container {
+        grid-template-columns: 100%;
+    }
+
+    .img-container {
+        width: 40%;
+    }
+
+    .project-links {
+        flex-direction: row;
+        width: 60%;
+        justify-self: center;
+    }
+
+    .project-link-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* FOOTER ******************* FOOTER ******************* FOOTER ************* FOOTER */
+    footer p {
+        font-size: 12px;
+    }
+
+    /* VIDEO ************************ VIDEO ********************* VIDEO **************** VIDEO */
+    .video-container {
+        width: 98%;
+        height: 50vh;
+    }
+
+}
