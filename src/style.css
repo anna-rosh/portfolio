@@ -383,3 +383,84 @@ footer .contact-container {
     }
 
 }
+
+@media screen and (max-width: 500px) {
+
+    .opening-section {
+        height: 93vh;
+    }
+
+    .about-container h2 {
+        font-size: 20px;
+    }
+
+    .about-text {
+        padding: 6% 8%;
+        font-size: 12px;
+    }
+
+    .project-title-container h1 {
+        font-size: 5vw;
+    }
+
+    /* PROJECT *********************** PROJECT ****************** PROJECT */
+    .project-container {
+        height: 98vh;
+    }
+
+    .img-container {
+        width: 95%;
+    }
+
+    .project-text-container h2 {
+        font-size: 20px;
+    }
+
+    .project-info {
+        font-size: 14px;
+    }
+
+    /* VIDEO ******************** VIDEO ******************* VIDEO ******** VIDEO */
+    .video-container {
+        flex-direction: column;
+    }
+    
+    .video-container h1 {
+        writing-mode: horizontal-tb;
+        transform: none;
+        font-size: 20px;
+        position: static;
+        margin-bottom: 30px;
+    }
+
+    .video {
+        width: 90%;
+    }
+
+    /* FOOTER ************************ FOOTER ******************* FOOTER */
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    footer p {
+        font-size: 8px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    footer .contact-container {
+        width: 80%;
+        padding-bottom: 10%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .project-info {
+        font-size: 12px;
+        width: 80%;
+    }
+}
