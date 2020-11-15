@@ -1,5 +1,5 @@
 import React from "react";
-import { GitHub, Linkedin, Mail, File } from "react-feather";
+import { GitHub, Linkedin, Mail } from "react-feather";
 
 export default function Contact() {
     return (
@@ -27,14 +27,6 @@ export default function Contact() {
                 rel="noopener noreferrer"
             >
                 <Mail className="contact-icon" />
-            </a>
-            <a
-                className="contact-link"
-                href="./imgs/cv.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <File className="contact-icon" />
             </a>
         </div>
     );
