@@ -331,7 +331,9 @@ footer .contact-container {
     outline: none;
 }
 
-@media screen and (max-width: 770px) {
+@media screen 
+    and (max-width: 770px)
+    and (orientation: portrait) {
 
     .opening-section {
         grid-template-columns: 100%;
@@ -384,7 +386,9 @@ footer .contact-container {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen 
+    and (max-width: 500px)
+    and (orientation: portrait) {
 
     .opening-section {
         height: 93vh;
